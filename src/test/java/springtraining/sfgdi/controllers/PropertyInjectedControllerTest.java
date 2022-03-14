@@ -2,7 +2,7 @@ package springtraining.sfgdi.controllers;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import springtraining.sfgdi.services.GreetingServiceImpl;
+import springtraining.sfgdi.services.ConstructorGreetingService;
 
 class PropertyInjectedControllerTest {
 
@@ -12,7 +12,7 @@ class PropertyInjectedControllerTest {
     void setUp() {
         controller = new PropertyInjectedController();
 
-        controller.greetingService = new GreetingServiceImpl();
+        controller.greetingService = new ConstructorGreetingService();
     }
 
     @Test
