@@ -1,4 +1,4 @@
-package springtraining.sfgdi.controllers;
+package springtraining.sfgdi.services;
 
 public interface GreetingService {
 
